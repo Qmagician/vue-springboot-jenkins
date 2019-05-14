@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\SoftWare\\Nodejs\\node.exe',
+1 verbose cli   'E:\\SoftWare\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle vue-springboot-jenkins@1.0.0~predev: vue-springboot-jenkins@1.0.0
+6 silly lifecycle vue-springboot-jenkins@1.0.0~predev: no script for predev, continuing
+7 info lifecycle vue-springboot-jenkins@1.0.0~dev: vue-springboot-jenkins@1.0.0
+8 verbose lifecycle vue-springboot-jenkins@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle vue-springboot-jenkins@1.0.0~dev: PATH: E:\SoftWare\Nodejs\node_modules\npm\bin\node-gyp-bin;E:\Vue\vue-springboot-jenkins\Front\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\SoftWare\TortoiseSVN\bin;E:\SoftWare\Nodejs\;E:\SoftWare\Nodejs\node_modules\npm\node_global_modules;E:\Java\apache-maven\bin;E:\Java\apache-tomcat-8.0.43\bin;E:\SoftWare\mySQL\bin;E:\SoftWare\VMware\VMware Workstation\vmware-authd;E:\SoftWare\Python;E:\Java\jdk1.8.0_181\bin;E:\SoftWare\Git\cmd;E:\SoftWare\Python\Scripts\;E:\SoftWare\Python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;E:\SoftWare\Microsoft VS Code\bin;E:\SoftWare\IntelliJ IDEA 2018.3\bin;;E:\SoftWare\PyCharm 2018.3.5\bin;
+10 verbose lifecycle vue-springboot-jenkins@1.0.0~dev: CWD: E:\Vue\vue-springboot-jenkins\Front
+11 silly lifecycle vue-springboot-jenkins@1.0.0~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --inline --progress --config build/webpack.dev.conf.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1020:11)
+12 verbose stack     at process.kill (internal/process.js:190:13)
+12 verbose stack     at process.listener (E:\SoftWare\Nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (E:\SoftWare\Nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (E:\SoftWare\Nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd E:\Vue\vue-springboot-jenkins\Front
+14 error Windows_NT 10.0.16299
+15 error argv "E:\\SoftWare\\Nodejs\\node.exe" "E:\\SoftWare\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v6.11.3
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
