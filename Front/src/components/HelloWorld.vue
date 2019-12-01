@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import {accessTest} from '@/api/api'
+//import {accessTest} from '@/api/api'
 export default {
   name: 'HelloWorld',
   data () {
@@ -99,10 +99,10 @@ export default {
         'id':"123",
         'name':"test"
       }
-      accessTest(params).then(data=>{
+      /*accessTest(params).then(data=>{
         debugger
         console.log({res:data})
-      })
+      })*/
     }
   },
 
